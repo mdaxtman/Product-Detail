@@ -1,0 +1,134 @@
+body{
+  font-size: 1.5em;
+}
+#content{
+  width: 100%;
+}
+
+.headline{
+  font-weight: bold;
+  font-size: 1.25em;
+  padding: 5px 0 5px 0;
+}
+
+#product-name{
+  font-weight: 100;
+  display: block;
+  margin: 0% 2% 0% 2%;
+  border-bottom: 3px solid #cecece;
+}
+
+#left-panel{
+  font-size: .8em;
+}
+
+table, #table-wrapper, #table-nav{
+  display: none;
+}
+
+#price{
+  padding-top: 1%;
+  padding-bottom: 2.5%;
+  font-size: 1.5em;
+  font-weight: bold;
+  float: left;
+  width: 40%;
+}
+
+#related-items{
+  width: 50%;
+  font-size: .75em;
+  float: right;
+  display: inline;
+  padding-bottom: 1%;
+  padding-left: 5%;
+  border-left: 1px solid #cecece;
+
+}
+
+#model-image{
+  margin-top: 5%;
+  padding: 5% 20% 5% 25%;
+  border-top: 1px solid #cecece;
+  border-bottom: 1px solid #cecece;
+  width: 50%;
+}
+
+#size-select{
+  width: 40%;
+  float: left;
+}
+
+#quantity-select{
+  width: 40%;
+  float: right;
+}
+
+#quantity-select, #size-select{
+  padding-bottom: 5%;
+}
+
+#size-select select, #quantity-select select{
+  width: 90%;
+  height: 30px;
+}
+
+#right-panel{
+  font-size: .75em;
+}
+
+.cart{
+  background: #086598;
+  color: #f5f5f5;
+  width:40%;
+  height: 40px;
+  margin-bottom: 5%;
+  margin-left: 25%;
+}
+
+#select-title{
+  margin-left: 19%;
+  font-size: 1.5em;
+  margin-bottom: 5%;
+}
+
+#more-items{
+  padding-left: 19%;
+  margin: 0% 2% 5% 2%;
+  padding-top: 5%;
+  font-size: 1em;
+  margin-bottom: 5%;
+}
+
+#tops, #bottoms, #shoes{
+  width: 75%;
+  display: block;
+  border-top: 1px solid #cecece;
+  padding: 5% 0% 5% 25%;
+}
+
+.small-container{
+  font-size: .8em;
+  width: 100%;
+  padding: 2% 0% 2% 0%;
+  background: #f5f5f5;
+  border-top: 1px solid #cecece;
+  border-bottom: 1px solid #cecece;
+}
+
+.small-price{
+  float: right;
+}
+
+.small-size{
+  font-size: .9em;
+}
+.small-availability{
+  font-size: .75em;
+}
+
+.small-size, .small-price{
+  padding-left: 10%;
+  font-size: .8em;
+}
+

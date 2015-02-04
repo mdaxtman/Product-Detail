@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8>
+  <meta name=description content="">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="app.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" media="(max-width:500px)" href="style-small.css">
+  <link rel="stylesheet" media="(min-width:501px)" href="style-large.css">
+  <title>product-details</title>
+</head>
+<body>
+  <div class="content" id="top-panel"> 
+      <div class="headline"> 
+        PRODUCT DETAILS:
+        <span id="product-name">  
+        </span> 
+      </div>
+      <span id="left-panel">
+        <div id="price">
+        </div>
+        <div id="related-items">
+          <div class="heading">Related items:</div>
+          <img class="icons" src="resources/sock.jpg">
+          men's 3-pack socks                
+          <br>
+          <img class="icons" src="resources/hat.jpg">
+          sports cap
+          <br>
+          <img class="icons" src="resources/sunglasses.jpg">
+          sunglasses 
+          <br> 
+        </div>
+      </span>
+      <span id="middle-panel">
+        <img id="model-image">
+      </span>
+      <span id="right-panel">
+        <div id="select-title">
+          Select Options
+        </div>
+        <div id="size-select">
+          <strong>
+            Size  
+          </strong>
+          <br>  
+          <select>
+            <option value="Small">Small</option>
+            <option value="Medium">Medium</option>
+            <option value="Large">Large</option>
+            <option value="X-Large">X-Large</option>
+          </select>
+        </div>
+        <div id="quantity-select">
+          <strong>
+            Quantity  
+          </strong>
+          <br>  
+          <select>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <button class="cart">Add to Cart</button>
+      </span>
+    <br>
+  </div>
+  <div class="content bottom-panel">
+    <div id="more-items">
+      MORE ITEMS
+    </div>
+    <div class="tabs">
+      <span id="tops" class="selected">
+      </span>
+      <div id="small-tops">
+      </div>
+      <span id="bottoms">
+      </span>
+      <div id="small-bottoms">
+      </div>
+      <span id="shoes">
+      </span>
+      <div id="small-shoes">
+      </div>
+    </div>  
+      <table>
+        <thead>
+          <tr id="head">
+            <td id="head-1">STYLE</td>
+            <td id="head-2">DESCRIPTION</td>
+            <td id="head-3">SIZE</td>
+            <td id="head-4">PRICE</td>
+            <td id="head-5">#AVAILABLE</td>
+          </tr>
+        </thead>
+      </table>
+    <div id="table-wrapper">
+      <table>
+        <tbody id="product-data">
+        </tbody>
+      </table>
+    </div>
+    <div id="table-nav">
+      <span class="first-page"><img src="resources/first.svg"></span>
+      <span class="arow-left"><img src="resources/left.svg"></span>
+      <span id="page-number">1</span>
+      <span class="arrow-right"><img src="resources/right.svg"></span>
+      <span class="last-page"><img src="resources/last.svg"></span>
+      <select name="per-page">
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="50">50</option>
+      </select>
+        items per page
+    </div>
+  </div>
+</body>
+</html>

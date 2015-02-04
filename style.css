@@ -1,0 +1,24 @@
+body{
+  font-size: .8em;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-style: normal;
+  font-variant: normal;
+}
+
+#product-name{
+  font-weight: lighter;
+  display: inline;
+}
+
+.icons{
+  width: 5%;
+  max-width: 20px;
+  min-width: 15px;
+  padding-bottom: 5px;
+  vertical-align: middle;
+}
+
+a{
+ color :#4483c9;
+ text-decoration: none; 
+}
